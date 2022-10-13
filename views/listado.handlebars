@@ -1,0 +1,14 @@
+<h1>Lista de productos</h1>
+<ul>
+    {{#each productos}}
+    
+    <div class="list-group">
+    <li class="list-group-item list-group-item-action">{{nombre}} </li>
+    <li class="list-group-item list-group-item-action">{{marca}} </li>
+    <li class="list-group-item list-group-item-action">{{precio}} </li>
+    </div>
+    
+  {{/each}}
+  <button><a href="/">volver</a></button>
+
+</ul>
